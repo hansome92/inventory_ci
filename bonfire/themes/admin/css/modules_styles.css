@@ -1,0 +1,241 @@
+#Label_cancel{
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 5px;
+    width: 160px;
+} 
+
+#button_cancel{
+	float: right;
+	margin-left: 15px;
+}
+
+#cancel_label {
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 7px;
+    padding: 2px 5px 2px 5px;
+}
+
+form.form_cancel{
+	margin-bottom: 0px;
+}
+
+#name{
+	border: 1px;
+	padding: 12px; 
+	display: inline-block; 
+	vertical-align: top;
+}
+
+#data_info{
+	display: inline-block; 
+	vertical-align: top; 
+	border-left: 1px solid #DDDDDD; 
+	border-right: 1px solid #DDDDDD;
+}
+
+#charged_to_customer{
+	text-align: right; 
+	background: #243957;	
+	color: #fff; 
+	font-size: 16px; 
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.8); 
+	padding: 6px;
+}
+
+#charged_to_customer_price{
+	background: #243957; 
+	text-align: center; 
+	color: #fff; 
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.8);
+}
+
+#total_view_price{
+	border-top: 1px solid #D4D4D4; 
+	text-align: right;
+}
+
+#total_view{
+	border-top: 1px solid #D4D4D4; 
+	text-align: right; 
+	font-weight: bold; 
+	padding-right: 10px;
+}
+
+.total_values_price{
+	text-align: right;
+}
+
+.total_values_view{
+	text-align: right; 
+	padding-right: 10px;
+}
+
+#products_details{
+	text-align: left; 
+	padding: 11px 7px;
+}
+
+#products_orders_view{
+	display: table;  
+	margin-left: auto; 
+	margin-right: auto; 
+	width:100%; 
+	line-height: 13px;
+}
+
+#grand_total_view{
+	border-top: 1px solid #D4D4D4; 
+	text-align: right; 
+	font-weight: bold; 
+	padding-right: 10px;
+}
+
+.ui-jqgrid tr.myfootrow td {
+    font-weight: bold;
+    overflow: hidden;
+    white-space:nowrap;
+    height: 21px;
+    padding: 0 2px 0 2px;
+    border-top-width: 1px;
+    border-top-color: inherit;
+    border-top-style: solid;
+}
+
+.test_text
+{
+	font-size:0.0001em;
+}
+
+.desktop .body{
+	min-height: 0;
+	width: 100%;
+	padding: 88px 20px 10px;
+	min-width: 100%
+}
+
+#search_title{
+	float: right; 
+	padding: 1px 45% 1px 1px;
+}
+
+#search_global{
+	height:10px;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+
+#search_title #search_global, span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable {
+    position: absolute;
+    top: 45%;
+}
+			
+#search_title span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+#text_response div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sort{
+	filter: alpha(opacity=30);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	opacity: 0.3;
+}
+#gs_orders_action{
+	display: none;
+}
+
+/*Dialog*/
+#dialog_information > a {
+    font-weight: bold;
+    margin: 0 8%;
+}
+
+#text_response > #dialog_information {
+    width: 92%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ui-dialog-title {
+    padding: 3px;
+}
+
+.ui-dialog-titlebar-close.ui-corner-all {
+    float: right;
+    padding: 3px;
+}
+
+#text_response{
+	padding: 2%;
+}
+
+#list2_orders_amazon_order_id #tool, 
+#list2_orders_purchase_date #tool, 
+#list2_orders_shipment_service_leve_category #tool,
+#list2_orders_order_status #tool,
+#list2_orders_skus #tool,
+#list2_orders_supplier #tool, 
+#list2_orders_items_prices #tool,
+#list2_amazon_fee_Commission #tool, 
+#list2_amazon_fee_Shipping #tool, 
+#list2_taxes_cost #tool, 
+#list2_item_cost #tool, 
+#list2_shippin_cost #tool,
+#list2_received_from_Amazon #tool, 
+#list2_refunds_amount_refund #tool,
+#list2_profit #tool,
+#list2_orders_ROI #tool 
+{ 
+	background: #85B5D9;
+	border: 2px solid #4297D7;
+	bottom: 15px; /** Aumentar para mayor efecto **/
+	border-radius: 6px;
+	color: white;
+	font-size: 13px; 
+	right: 43%;
+	line-height: 16px;
+	opacity: 0;
+	padding: 10px;
+	width: 200px;
+	position: fixed;
+	text-align: center; /* Texto centrado */ 
+	/** Transiciones **/
+	-webkit-transition:0.2s;
+	-moz-transition:0.2s;
+	-o-transition:0.2s;
+	transition:0.2s;
+	visibility: hidden;
+}
+
+#list2_orders_amazon_order_id:hover #tool, 
+#list2_orders_purchase_date:hover #tool, 
+#list2_orders_shipment_service_leve_category:hover #tool,
+#list2_orders_order_status:hover #tool,
+#list2_orders_skus:hover #tool,
+#list2_orders_supplier:hover #tool, 
+#list2_orders_items_prices:hover #tool,
+#list2_amazon_fee_Commission:hover #tool, 
+#list2_amazon_fee_Shipping:hover #tool, 
+#list2_taxes_cost:hover #tool, 
+#list2_item_cost:hover #tool, 
+#list2_shippin_cost:hover #tool,
+#list2_received_from_Amazon:hover #tool, 
+#list2_refunds_amount_refund:hover #tool,
+#list2_profit:hover #tool,
+#list2_orders_ROI:hover #tool { 
+	 opacity: 1;
+	 visibility: visible;
+	 z-index: 999;  
+	 bottom: 5px; 
+}

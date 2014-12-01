@@ -1,0 +1,216 @@
+/*
+ * 
+ * Refunds Screen Partial
+ * 
+ * 
+ */
+#buttons_refunds{ 
+	width: 100%; 
+	text-align: center; 
+}
+
+#tabs_2{ 
+	width: 100%; 
+	margin-top: 30px; 
+}
+
+#tabs_2 > ul{ 
+	margin-left: 0px; 
+	*margin-left: 0px; 
+}
+
+#tabs_2 > ul li{ 
+	display: inline; 
+	position: relative; 
+}
+
+#tabs_2 ul li a{ 
+	padding: 6px 5px 6px 5px; 
+	text-decoration: none; 
+	font-family: verdana; 
+	font-size: 14px; 
+	color: #000000; 
+	position: relative; 
+	text-align: center; 
+}
+
+#tabs_2 ul li a.active{ 
+	color: #000000; 
+	z-index: 2; 
+	background-color: #E8E6E8; 
+	font-weight: bold; 
+}
+
+#select #options_select, #label_select{ 
+	display: inline-block; 
+	vertical-align: middle; 
+}
+
+#label_select{ 
+	margin-bottom: 0px; 
+	font-weight: bold; 
+	margin-right: 15px; 
+}
+
+#sign_total, .total_refund{ 
+	display: inline-block; 
+	vertical-align: middle; 
+	margin: 0; 
+}
+
+#select{ 
+	margin-bottom: 10px; 
+}
+
+.form_refund{ 
+	width: 580px; 
+	margin: 0; 
+}
+
+.content_panel{ 
+	margin: 12px; 
+	text-align: justify; 
+	word-wrap: break-word; 
+}
+
+.input_refund{ 
+	width: 67px !important; 
+	text-align: right; 
+}
+ 
+div.price, div.prior { 
+	margin-right: 42px; 
+	text-align: right; 
+}
+
+.prior { 
+	color: #FF0000; 
+}
+
+.panel{
+	border: 1px solid #E8E6E8;
+	background: #F6F4F6;
+	font-size: 13px;
+	font-family: sans-serif;
+	color: #000;
+	display: block;
+	margin-top: -5px;
+}
+
+.max_refund, .prior_full{ 
+	display: inline-block; 
+	vertical-align: middle; 
+}
+
+/*
+ * 
+ * Order View style 
+ * 
+ * 
+ */
+	
+a.button_partial{
+	font-size: 11px !important;
+	padding: 2px 10px !important;
+}
+
+.order_group{
+	position: relative; 
+	float: left; 
+	display: block; 
+	/*width: 55%;*/
+	padding-left: 15px;
+	width: 100%;
+}
+
+table label.control_label{
+	text-align: left;
+}
+
+.test_text
+{
+	font-size:0.0001em;
+}
+
+.order_group .controls input{
+	border: 0;
+	background: #F4F4F4;
+	box-shadow: none;
+}
+
+.control_label{
+	font-weight: bold;
+	color: #000000;
+	width: 160px;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.btn_return{
+	float: right;
+	padding: 7px 21px;
+	margin: 13px 18px 13px 0;
+}
+
+/*Dialog*/
+#dialog_information > a {
+    font-weight: bold;
+    margin: 0 8%;
+}
+
+#text_response > #dialog_information {
+    width: 92%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#text_response div {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#no_shipping_address{ margin-top: 10px; }
+
+#text_response{ padding: 2%; }
+
+.prior { color: #FF0000; }
+
+@media all and (max-width: 699px)
+{
+	.order_group .controls input{
+		margin-left: 20%;
+	}
+}
+
+@media all and (min-width: 699px)
+{
+	.order_group .controls input{
+		margin-left: 40%;
+	}
+}
+
+@media all and (max-width: 950px)
+{
+	#total_price,#name, #data_info{
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 950px)
+{
+	#total_price{
+		width: 26%;
+	}
+	
+	#name{
+		width: 30%;
+	}
+	
+	#data_info{
+		width: 40%;
+	}
+}
+
+.price{
+	text-align: right;
+}
